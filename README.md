@@ -34,11 +34,12 @@ Your team is going to learn how to use git to enable good teamwork when building
 1. Now that everyone has joined the same team, everyone clone the Github Classroom project into your current directory - which should be `group-projects` if you ran the setup commands.
 1. `cd` into the directory that got created.
 1. Before anyone on the team writes a single line of code, the team will decide on a branch naming strategy. Branches should be descriptive of the work that is going to be done on that branch. Some teams also decide to add the developer's information to the branch name, such as initials. For example, a developer named Jasmine Sheboygen is going to work on the job listings page for the web site. A good name for the branch would be `js-job-listing-page`.
-1. Again, before you write any code, one team member volunteer to create the  ignore file on the `master` branch.
+1. Again, before you write any code, one team member volunteer to create the  ignore file on a branch.
     1. `touch .gitignore`
     1. `git add .`
     1. `git commit -m "Initial commit with .gitignore file"`
-    1. `git push origin master`
+    1. `git push origin YOUR BRANCH NAME`
+1. Now make a PR and get your team to approve it and merge into master.
 1. Now everyone should `git pull origin master`.
 1. That's the last commit you make on the master branch. At this point, each teammate will create their branch.
 
