@@ -79,3 +79,59 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
 .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
     border-color: #01274E;
 }
+
+
+/**************** Cards ****************/
+
+.card {
+	margin: 3%;
+	width: 27%;
+	border: 3px solid grey;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+.card-title {
+	border-bottom: 1px solid grey;
+	padding-bottom: 8px;
+	font-size: 3rem;
+}
+
+.card-text {
+	max-height: 100%;
+	max-width: 100%;
+	margin: 3%;
+	margin-bottom: 5%;
+}
+
+.card-img-top {
+	max-width: 100%;
+}
+
+#productPrice {
+	border-top: 1px solid grey;
+	font-size: 3em;
+	border-bottom: 1px solid grey;
+}
+
+#checkBox {
+	margin-bottom: 3%;
+	height: 30px;
+	width: 30px;
+
+
+/***********************
+HOME PAGE
+***********************/
+
+#homePageBody
+{
+	background-image: url("images/background.png");
+	background-repeat: no-repeat;
+}
+
+.one-edge-shadow {
+  -webkit-box-shadow: 15px 15px 20px -6px gray;
+     -moz-box-shadow: 15px 15px 20px -6px gray;
+          box-shadow: 15px 15px 20px -6px gray;
