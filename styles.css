@@ -136,6 +136,8 @@ h4.products {
 	border-bottom: 1px solid grey;
 	padding-bottom: 8px;
 	font-size: 3rem;
+	color: #01274E;
+	font-weight: bold;
 }
 
 .card-text {
@@ -146,7 +148,10 @@ h4.products {
 }
 
 .card-img-top {
-	max-width: 100%;
+	max-width: 90%;
+	max-height: 250px;
+	min-height: 246px;
+	margin: 2%;
 }
 
 #productPrice {
@@ -160,6 +165,7 @@ h4.products {
 	margin-bottom: 3%;
 	height: 30px;
 	width: 30px;
+	text-align: center;
 }
 
 /***********************
@@ -167,10 +173,9 @@ HOME PAGE
 ***********************/
 
 #homePageBody {
-	background-image: url("images/background.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	/*min-width: 100%;*/
+
+	background: url(images/bg.jpg) no-repeat center center fixed; 
+	background-image: url("images/background.png");	
 }
 
 .one-edge-shadow 
@@ -263,6 +268,34 @@ body#wand-list
 	padding-right: 10%;
 
 }
+
+
+
+/*************************** CONTACT ***************************/
+
+.contactGuide, .contactList {
+	width: 80%;
+	margin: 2em auto;
+	text-align: center;
+}
+
+.icon {
+	width: 100px;
+	min-height: 40px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+
+}
+
+.iconName {
+	font-size: 2.5em;
+	list-style-type: none;
+}
+.iconName {
+ 	display: inline-block;
+ 	padding-right: 1em;
+ }
 
 .wandContainer {
 
