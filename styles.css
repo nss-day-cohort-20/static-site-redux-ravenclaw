@@ -80,7 +80,17 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
     border-color: #01274E;
 }
 
+/**************** Products **************/
+h2.products {
+	text-align: center;
+	font-size: 3em;
+	font-weight: 900;
+	margin-top: 2em;
+}
 
+h4.products {
+	text-align: center;
+}
 /**************** Cards ****************/
 
 .card {
