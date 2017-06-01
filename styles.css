@@ -12,7 +12,7 @@ nav {
 }
  /* fixes bootstrap defaults for nav links */
 nav, .nav-tabs, .nav-justified a {
-	color: #8D6B2C;
+	color: #FBFEFF;
 }
 
 header{
@@ -23,11 +23,18 @@ footer {
 	background-color: #01274E;
 	text-align: center;
 	font-size: .8em;
+	color: #8D6B2C;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
 }
 
 /**************** classes ****************/
 
 /* Cool Harry Potter Font */ 
+
+
 .navPotterFont{
 	font-family: 'Henny Penny', cursive;
 }
@@ -43,6 +50,7 @@ footer {
 .nav-tabs > li > a:active {
 	background-color: #8D6B2C;
 	color:#01274E;
+	border-color: #01274E;
 }
 
 /* Fixes bootstrap default for hover on nav links */
@@ -54,5 +62,20 @@ footer {
 
 /* Fixes bootstrap default for hover on active nav links */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-	color: #01274E;
+	color: #8D6B2C;
+	background-color: #01274E;
+}
+
+/* Fixes bootstrap default for border beneath nav links */
+.nav-tabs.nav-justified > li > a {
+	border-bottom: none;
+}
+
+/* Fixes bootstrap default for border around active nav links */
+active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a {
+	border-color: #01274E;
+}
+
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
+    border-color: #01274E;
 }
