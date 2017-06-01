@@ -153,7 +153,8 @@ body#wand-list {
 
 
 /*************************** CONTACT ***************************/
-h1.contactGuide, .contactList {
+
+.contactGuide, .contactList {
 	width: 80%;
 	margin: 2em auto;
 }
@@ -171,12 +172,10 @@ h1.contactGuide, .contactList {
 	font-size: 2.5em;
 	list-style-type: none;
 }
- li.iconName {
+.iconName {
  	display: inline-block;
  	padding-right: 1em;
  }
-
- d
 
 
 
