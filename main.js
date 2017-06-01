@@ -25,13 +25,15 @@ var eachWand = [wandGuts1, wandGuts2, wandGuts3, wandGuts4, wandGuts5, wandGuts6
 
 for (var i=0; i<=eachWand.length; i++) {
 	document.getElementById("card").innerHTML +=
-		`<img class="card-img-top" src="${eachWand[i].image}" alt="Card image cap">
+		` <div class="card">
+		<img class="card-img-top" src="${eachWand[i].image}" alt="Card image cap">
   		<div class="card-block">
    			<h4 class="card-title">${eachWand[i].name}</h4>
     		<p class="card-text">${eachWand[i].description}</p>
     		<p class="card-text" id="productPrice">$${eachWand[i].price}</p>
   		</div>
-  		<input id="checkBox" type="checkbox" name="${eachWand[i].nameId}" ID="${eachWand[i].nameId}">Click to Select`
+  		<input id="checkBox" type="checkbox" name="${eachWand[i].nameId}" ID="${eachWand[i].nameId}">Click to Select
+</div>`
 }
 
 var wandNames = ['Harrowing Hornwood','Winking Weasley', 'Disdainful Dilopogus', 'Menacing Meadow', 'Charming blaze', 'The Ferocious cane', 'Bolting Boon', 'Notorious Nitty', 'Eveline Enchanting','Templar Gingivitis', 'Nimble Nebula', 'Excelsior Mumblemouth', 'Surge Whatchamacallit', 'Saffron Semantics'];
