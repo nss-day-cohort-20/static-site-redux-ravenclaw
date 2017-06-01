@@ -32,7 +32,8 @@ for (var i=0; i<=eachWand.length; i++) {
     		<p class="card-text">${eachWand[i].description}</p>
     		<p class="card-text" id="productPrice">$${eachWand[i].price}</p>
   		</div>
-  		<input id="checkBox" type="checkbox" name="${eachWand[i].nameId}" ID="${eachWand[i].nameId}">Click to Select
+  		<input id="checkBox" type="checkbox" name="${eachWand[i].nameId}" ID="${eachWand[i].nameId}">
+  		<h4 id="clickSelectText">Click to select</h4>
 </div>`
 }
 

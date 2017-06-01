@@ -106,6 +106,8 @@ h4.products {
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
+	min-height: 600px;
+	max-height: 6500px;
 }
 
 .card-title {
@@ -142,8 +144,18 @@ h4.products {
 	height: 30px;
 	width: 30px;
 	text-align: center;
+    bottom: 0px;
+    font-size: 2em;
 }
 
+#clickSelectText {
+
+	color: #F92886;
+	font-weight: Bold;
+	max-width: 100%;
+	bottom: 0px;	
+
+}
 /***********************
 HOME PAGE
 ***********************/
