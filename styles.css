@@ -2,7 +2,9 @@
 .navPotterFont{
 	font-family: 'Henny Penny', cursive;
 }
-
+body {
+	background-color: #545454;
+}
 nav, .nav-tabs, .nav-justified a {
 	color: #8D6B2C;
 }
@@ -13,6 +15,11 @@ header{
 nav {
 	background-color: #01274E;
 	font-size:2em;
+}
+footer {
+	background-color: #01274E;
+	text-align: center;
+	font-size: .8em;
 }
 
 .logoImage{
