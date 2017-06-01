@@ -1,5 +1,3 @@
-
-
 /**************** element tags ****************/
 
 body {
@@ -155,12 +153,30 @@ body#wand-list {
 
 
 /*************************** CONTACT ***************************/
-.icon {
-	display: block;
-	max-width: 150px;
-	margin: 0 auto 30px;
-	border-radius: 100%;
+h1.contactGuide, .contactList {
+	width: 80%;
+	margin: 2em auto;
 }
+
+.icon {
+	width: 100px;
+	min-height: 40px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+
+}
+
+.iconName {
+	font-size: 2.5em;
+	list-style-type: none;
+}
+ li.iconName {
+ 	display: inline-block;
+ 	padding-right: 1em;
+ }
+
+ d
 
 
 
