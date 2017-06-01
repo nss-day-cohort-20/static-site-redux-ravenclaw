@@ -80,6 +80,7 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
     border-color: #01274E;
 }
 
+
 /**************** Cards ****************/
 
 .card {
@@ -118,4 +119,19 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
 	margin-bottom: 3%;
 	height: 30px;
 	width: 30px;
+
+
+/***********************
+HOME PAGE
+***********************/
+
+#homePageBody
+{
+	background-image: url("images/background.png");
+	background-repeat: no-repeat;
 }
+
+.one-edge-shadow {
+  -webkit-box-shadow: 15px 15px 20px -6px gray;
+     -moz-box-shadow: 15px 15px 20px -6px gray;
+          box-shadow: 15px 15px 20px -6px gray;
