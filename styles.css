@@ -252,3 +252,16 @@ body#wand-list
 	font-size: 8rem;
 	color: #8D6B2C;
 }
+#builderButton {
+background-repeat: no-repeat;
+ 	/*color: white;*/
+ 	font-family: 'Pompiere', cursive;
+ 	display: block;
+ 	width:200px;
+ 	height: 50px;
+ 	border-radius: 20px;
+ 	font-weight: 900;
+ 	font-size: 2em;
+ 	overflow: hidden;
+ 	paddinf-right: 200px;
+ }
