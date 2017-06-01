@@ -79,7 +79,30 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
 .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
     border-color: #01274E;
 }
+/*************************** CONTACT ***************************/
 
+.contactGuide, .contactList {
+	width: 80%;
+	margin: 2em auto;
+}
+
+.icon {
+	width: 100px;
+	min-height: 40px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+
+}
+
+.iconName {
+	font-size: 2.5em;
+	list-style-type: none;
+}
+.iconName {
+ 	display: inline-block;
+ 	padding-right: 1em;
+ }
 
 /**************** Products **************/
 h2.products {
@@ -92,6 +115,7 @@ h2.products {
 h4.products {
 	text-align: center;
 }
+
 .navbar {
 	height: auto;
 	margin: 0 auto -155px;
@@ -246,6 +270,7 @@ body#wand-list
 }
 
 
+
 /*************************** CONTACT ***************************/
 
 .contactGuide, .contactList {
@@ -271,8 +296,6 @@ body#wand-list
  	display: inline-block;
  	padding-right: 1em;
  }
-
-
 
 .wandContainer {
 
