@@ -1,24 +1,16 @@
 
-.navPotterFont{
-	font-family: 'Henny Penny', cursive;
-}
 
-h1 {
-	font-family: 'Henny Penny', cursive;
-	color: #222f5b;
-	font-size: 5em;
-}
-
-h2 {
-font-family: 'Henny Penny', cursive;
-	color: #4E0127;
-	font-size: 3em;
-
-}
+/**************** element tags ****************/
 
 body {
 	background-color: #545454;
 }
+
+nav {
+	background-color: #01274E;
+	font-size:2em;
+}
+ /* fixes bootstrap defaults for nav links */
 nav, .nav-tabs, .nav-justified a {
 	color: #8D6B2C;
 }
@@ -26,35 +18,41 @@ nav, .nav-tabs, .nav-justified a {
 header{
 	background-color: #01274E;
 }
-nav {
-	background-color: #01274E;
-	font-size:2em;
-}
+
 footer {
 	background-color: #01274E;
 	text-align: center;
 	font-size: .8em;
 }
 
-.enterText {
-	text-align: center;
-	color:#4E0127;
+/**************** classes ****************/
+
+/* Cool Harry Potter Font */ 
+.navPotterFont{
+	font-family: 'Henny Penny', cursive;
 }
+
+/* centers and sizes logo in nav/header */
 .logoImage{
 	display: block; margin-left: auto; margin-right: auto;
 	max-height:150px;
 	width: 150px;
 }
+
+/* Fixes bootstrap default for active link tab */
 .nav-tabs > li > a:active {
 	background-color: #8D6B2C;
 	color:#01274E;
 }
+
+/* Fixes bootstrap default for hover on nav links */
 .nav-tabs > li > a:hover {
 	background-color: #01274E;
 	color:#8D6B2C;
 	border: none;
 }
+
+/* Fixes bootstrap default for hover on active nav links */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
 	color: #01274E;
 }
-#FAFFFC
