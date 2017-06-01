@@ -30,6 +30,10 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 }
 
+h2, h3, h4, h5, h6 {
+	font-family: 'Pompiere', cursive;
+}
+
 /**************** classes ****************/
 
 /* Cool Harry Potter Font */ 
@@ -78,4 +82,8 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
 
 .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
     border-color: #01274E;
+}
+/***************** wand list page styles *******************/
+body#wand-list {
+	
 }
