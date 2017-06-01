@@ -10,7 +10,6 @@ body {
 p {
 	font-family: sans-serif;
 }
-
 nav {
 	background-color: #01274E;
 	font-size:2em;
@@ -135,6 +134,7 @@ HOME PAGE
   -webkit-box-shadow: 15px 15px 20px -6px gray;
      -moz-box-shadow: 15px 15px 20px -6px gray;
           box-shadow: 15px 15px 20px -6px gray;
+
 }
 
 /***************** wand list page styles *******************/
