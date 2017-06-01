@@ -143,5 +143,8 @@ HOME PAGE
  {
  	font-family: 'Pompiere', cursive;
  	display: block;
+ 	width:200px;
+ 	height: 100px;
  	margin: auto;
+ 	border-radius: 10px;
  }
