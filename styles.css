@@ -1,0 +1,35 @@
+
+.navPotterFont{
+	font-family: 'Henny Penny', cursive;
+}
+
+nav, .nav-tabs, .nav-justified a {
+	color: #8D6B2C;
+}
+
+header{
+	background-color: #01274E;
+}
+nav {
+	background-color: #01274E;
+	font-size:2em;
+}
+
+.logoImage{
+	display: block; margin-left: auto; margin-right: auto;
+	max-height:150px;
+	width: 150px;
+}
+.nav-tabs > li > a:active {
+	background-color: #8D6B2C;
+	color:#01274E;
+}
+.nav-tabs > li > a:hover {
+	background-color: #01274E;
+	color:#8D6B2C;
+	border: none;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	color: #01274E;
+}
+#FAFFFC
