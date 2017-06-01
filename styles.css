@@ -82,7 +82,10 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
     border-color: #01274E;
 }
 
-
+.navbar {
+	height: auto;
+	margin: 0 auto -155px;
+}
 /**************** Cards ****************/
 
 .card {
@@ -157,6 +160,7 @@ HOME PAGE
  	font-weight: 900;
  	font-size: 3em;
  	overflow: hidden;
+
  }
 
 .buttonStyle
@@ -165,6 +169,7 @@ HOME PAGE
      -moz-box-shadow: 15px 15px 20px -6px black;
           box-shadow: 15px 15px 20px -6px black;
    background-color: lightgray;
+
 
 }
 #homeTitle
@@ -198,4 +203,47 @@ body#wand-list
 	
 }
 
+/***************** Wand Builder *******************/
 
+/*.jumbotron {
+	border: 1px solid red;
+	margin: 5%;
+	max-width: 60%;
+	background-color: transparent;
+	padding-left: 100px;
+}*/
+
+.wandImage {
+	border: 1px solid red;
+	max-width: 50%;
+	max-height: 50%;
+	margin: 0 auto;
+	margin: 5%;
+	margin-left: 10%
+}
+
+.wandFeatures {
+	border: 1px solid red;
+	margin-top: 10%;
+	padding-right: 60px;
+}
+
+.wandContainer {
+
+	margin: 5%;
+	max-width: 60%;
+	background-color: transparent;
+	padding-left: 80px;
+}
+
+.hereIsYourWand {
+	padding-left: 50px;
+	font-size: 4rem;
+}
+
+.randomWandName {
+
+	font-family: 'Henny Penny', cursive;
+	font-size: 8rem;
+	text-align: center;
+}
