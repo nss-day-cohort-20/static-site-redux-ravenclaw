@@ -219,16 +219,15 @@ body#wand-list
 }
 .wandImage {
 	
-	max-width: 58%;
-	max-height: 56%;
+	max-width: 78%;
+	max-height: 78%;
 	margin: 0 auto;
 	margin: 5%;
-	margin-left: 10%
 }
 
 .wandFeatures {
 
-	margin-top: 10%;
+	margin-top: 5%;
 	padding-right: 10%;
 
 }
@@ -242,16 +241,18 @@ body#wand-list
 }
 
 .hereIsYourWand {
-	padding-left: 50px;
 	font-size: 4rem;
 	text-decoration: underline;
+	text-align: center;
 }
 
 .randomWandName {
-
+	margin-top: 10%;
+	margin-bottom: 10%;
 	font-family: 'Henny Penny', cursive;
 	font-size: 8rem;
-	color: #8D6B2C;
+	color: #F92886;
+	text-align: center;
 }
 #builderButton {
 background-repeat: no-repeat;
@@ -264,5 +265,21 @@ background-repeat: no-repeat;
  	font-weight: 900;
  	font-size: 2em;
  	overflow: hidden;
- 	paddinf-right: 200px;
+ 	position: absolute;
+ 	bottom: 2;
+ 	right: 0;
+ 	margin-right: 160px;	
+ }
+ #builderButton2 {
+background-repeat: no-repeat;
+ 	/*color: white;*/
+ 	font-family: 'Pompiere', cursive;
+ 	width:200px;
+ 	height: 50px;
+ 	border-radius: 20px;
+ 	font-weight: 900;
+ 	font-size: 2em;
+ 	position: absolute;
+ 	margin-left: 40px;	
+ 	
  }
