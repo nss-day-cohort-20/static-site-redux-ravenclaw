@@ -4,6 +4,11 @@
 
 body {
 	background-color: #fff;
+	font-family: 'Pompiere', cursive;
+}
+
+p {
+	font-family: sans-serif;
 }
 
 nav {
@@ -24,14 +29,6 @@ footer {
 	text-align: center;
 	font-size: .8em;
 	color: #8D6B2C;
-}
-
-h1 {
-	font-family: 'Montserrat', sans-serif;
-}
-
-h2, h3, h4, h5, h6 {
-	font-family: 'Pompiere', cursive;
 }
 
 /**************** classes ****************/
@@ -83,7 +80,6 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
 .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
     border-color: #01274E;
 }
-<<<<<<< HEAD
 
 
 /**************** Cards ****************/
@@ -124,14 +120,13 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
 	margin-bottom: 3%;
 	height: 30px;
 	width: 30px;
-
+}
 
 /***********************
 HOME PAGE
 ***********************/
 
-#homePageBody
-{
+#homePageBody {
 	background-image: url("images/background.png");
 	background-repeat: no-repeat;
 }
@@ -140,9 +135,10 @@ HOME PAGE
   -webkit-box-shadow: 15px 15px 20px -6px gray;
      -moz-box-shadow: 15px 15px 20px -6px gray;
           box-shadow: 15px 15px 20px -6px gray;
-=======
+}
+
 /***************** wand list page styles *******************/
 body#wand-list {
 	
 }
->>>>>>> mb-wand-list.html
+
