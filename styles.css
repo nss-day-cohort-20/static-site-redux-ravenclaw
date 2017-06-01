@@ -4,8 +4,13 @@
 
 body {
 	background-color: #fff;
+	font-family: 'Pompiere', cursive;
 }
 
+p {
+	font-family: sans-serif;
+
+}
 nav {
 	background-color: #01274E;
 	font-size:2em;
@@ -120,6 +125,7 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
 	height: 30px;
 	width: 30px;
 
+}
 
 /***********************
 HOME PAGE
@@ -135,3 +141,4 @@ HOME PAGE
   -webkit-box-shadow: 15px 15px 20px -6px gray;
      -moz-box-shadow: 15px 15px 20px -6px gray;
           box-shadow: 15px 15px 20px -6px gray;
+      }
