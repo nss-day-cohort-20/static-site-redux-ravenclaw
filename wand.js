@@ -17,11 +17,11 @@ function randomImageGenerator()
 	return randNum;
 }
 
-var img = parseInt(randomImageGenerator());
-console.log(img);
+ var i = parseInt(randomImageGenerator());
+// var getImgSrc = document.getElementById('wandImage');
+// var text = document.createTextNode(`${i}.png`);
+// getImgSrc.src += text /*`wand${img}.png`;*/
 var getImgSrc = document.getElementById('wandImage');
 // document.write(`<img src="images/wand${img}.png">`);
 // var text = document.createTextNode(`${img}.png`);
-getImgSrc.src += `wand${img}.png`;
-
-
+getImgSrc.src += `wand${i}.png`;
