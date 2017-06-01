@@ -1,6 +1,6 @@
-/******Arwa's code starts here*****/
 
 var wandNames = ['Harrowing Hornwood','Winking Weasley', 'Disdainful Dilopogus', 'Menacing Meadow', 'Charming blaze', 'Ferocious cane', 'Bolting Boon', 'Notorious Nitty', 'Eveline Enchanting','Templar Gingivitis', 'Nimble Nebula', 'Excelsior Mumblemouth', 'Surge Whatchamacallit', 'Saffron Semantics'];
+
 function randomNumberGenerator()
 {
 	var randNum = Math.floor(Math.random()*wandNames.length);
@@ -24,6 +24,4 @@ var getImgSrc = document.getElementById('wandImage');
 // var text = document.createTextNode(`${img}.png`);
 getImgSrc.src += `wand${img}.png`;
 
-
-/********* Arwa's code ends here************/
 
