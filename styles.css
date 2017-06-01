@@ -4,8 +4,12 @@
 
 body {
 	background-color: #fff;
+	font-family: 'Pompiere', cursive;
 }
 
+p {
+	font-family: sans-serif;
+}
 nav {
 	background-color: #01274E;
 	font-size:2em;
@@ -24,10 +28,6 @@ footer {
 	text-align: center;
 	font-size: .8em;
 	color: #8D6B2C;
-}
-
-h1 {
-	font-family: 'Montserrat', sans-serif;
 }
 
 /**************** classes ****************/
@@ -126,8 +126,7 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
 HOME PAGE
 ***********************/
 
-#homePageBody
-{
+#homePageBody {
 	background-image: url("images/background.png");
 	background-repeat: no-repeat;
 }
@@ -148,3 +147,9 @@ HOME PAGE
  	margin: auto;
  	border-radius: 10px;
  }
+/***************** wand list page styles *******************/
+body#wand-list {
+	
+}
+
+
