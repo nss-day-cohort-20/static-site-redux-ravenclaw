@@ -82,7 +82,10 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
     border-color: #01274E;
 }
 
-
+.navbar {
+	height: auto;
+	margin: 0 auto -155px;
+}
 /**************** Cards ****************/
 
 .card {
@@ -157,6 +160,7 @@ HOME PAGE
  	font-weight: 900;
  	font-size: 3em;
  	overflow: hidden;
+
  }
 
 .buttonStyle
@@ -165,6 +169,7 @@ HOME PAGE
      -moz-box-shadow: 15px 15px 20px -6px black;
           box-shadow: 15px 15px 20px -6px black;
    background-color: lightgray;
+
 
 }
 #homeTitle
