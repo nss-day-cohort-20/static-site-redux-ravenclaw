@@ -85,6 +85,7 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
 .navbar {
 	height: auto;
 	margin: 0 auto -155px;
+	max-width: 100%;
 }
 /**************** Cards ****************/
 
@@ -134,6 +135,8 @@ HOME PAGE
 #homePageBody {
 	background-image: url("images/background.png");
 	background-repeat: no-repeat;
+	background-size: cover;
+	/*min-width: 100%;*/
 }
 
 .one-edge-shadow 
@@ -145,16 +148,13 @@ HOME PAGE
 
  #onlyButtonOnHomePage
  {
- 	/*background-image: url("images/buttonBackground.jpg");*/
- 	background-repeat: no-repeat;
- 	/*color: white;*/
  	font-family: 'Pompiere', cursive;
  	display: block;
  	width:300px;
  	height: 200px;
  	margin: auto;
- 	/*margin-top: 5%;*/
- 	/*margin-bottom: 100px;*/
+ 	margin-top: 50px;
+ 	margin-bottom: 100px;
 
  	border-radius: 20px;
  	font-weight: 900;
