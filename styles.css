@@ -26,6 +26,8 @@ footer {
 	text-align: center;
 	font-size: .8em;
 	color: #8D6B2C;
+	width:100%;
+	height: 100%;
 }
 
 /**************** classes ****************/
@@ -78,7 +80,13 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
     border-color: #01274E;
 }
 
+.navbar {
+	height: auto;
+	margin: 0 auto -155px;
 
+	max-width:100%;
+
+}
 /**************** Cards ****************/
 
 .card {
@@ -127,6 +135,8 @@ HOME PAGE
 #homePageBody {
 	background-image: url("images/background.png");
 	background-repeat: no-repeat;
+	background-size: cover;
+	/*min-width: 100%;*/
 }
 
 .one-edge-shadow 
@@ -140,16 +150,86 @@ HOME PAGE
  {
  	font-family: 'Pompiere', cursive;
  	display: block;
- 	width:200px;
- 	height: 100px;
+ 	width:300px;
+ 	height: 200px;
  	margin: auto;
- 	border-radius: 10px;
+ 	margin-top: 50px;
+ 	margin-bottom: 100px;
+
+ 	border-radius: 20px;
+ 	font-weight: 900;
+ 	font-size: 3em;
+ 	overflow: hidden;
+
  }
+
+.buttonStyle
+{
+  -webkit-box-shadow: 15px 15px 20px -6px black;
+     -moz-box-shadow: 15px 15px 20px -6px black;
+          box-shadow: 15px 15px 20px -6px black;
+   background-color: lightgray;
+
+
+}
+#homeTitle
+{
+	text-align: center;
+	font-weight: 900;
+	font-size: 5em;
+	color: white;
+}
+
+#homeSubTitle
+{
+	text-align: center;
+	font-weight: 900;
+	font-size: 3em;
+	width: 50%;
+	margin: auto;
+	padding-top: 20px;
+}
+
+#arrow
+{
+	padding-top: 20px;
+	display: block;
+	width:10%;
+	margin: auto;
+}
 /***************** wand list page styles *******************/
-body#wand-list {
+body#wand-list 
+{
 	
 }
 
+/***************** Wand Builder *******************/
+
+/*.jumbotron {
+	border: 1px solid red;
+	margin: 5%;
+	max-width: 60%;
+	background-color: transparent;
+	padding-left: 100px;
+}*/
+.row {
+	max-width: 100%;
+}
+.wandImage {
+	
+	max-width: 58%;
+	max-height: 56%;
+	margin: 0 auto;
+	margin: 5%;
+	margin-left: 10%
+}
+
+.wandFeatures {
+
+	margin-top: 10%;
+	padding-right: 10%;
+
+}
 
 
 /*************************** CONTACT ***************************/
@@ -186,4 +266,23 @@ body#wand-list {
 
 
 
+.wandContainer {
 
+	margin: 5%;
+	max-width: 60%;
+	background-color: transparent;
+	padding-left: 80px;
+}
+
+.hereIsYourWand {
+	padding-left: 50px;
+	font-size: 4rem;
+	text-decoration: underline;
+}
+
+.randomWandName {
+
+	font-family: 'Henny Penny', cursive;
+	font-size: 8rem;
+	color: #8D6B2C;
+}
