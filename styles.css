@@ -134,11 +134,12 @@ h4.products {
 }
 
 .card-title {
-	border-bottom: 1px solid grey;
-	padding-bottom: 8px;
+	padding-bottom: 30px;
 	font-size: 3rem;
 	color: #01274E;
 	font-weight: bold;
+	font-stretch: all;
+	font-size: 5rem;
 }
 
 .card-text {
@@ -155,10 +156,12 @@ h4.products {
 	min-width: 344px;
 	margin-top: 4%;
 	margin-bottom: 4%;
+	border-radius: 2%;
 }
 
 #productPrice {
-	border-top: 1px solid grey;
+	font-family: 'Henny Penny', cursive;
+
 	font-size: 3em;
 	border-bottom: 1px solid grey;
 	color: #01274E;
@@ -167,8 +170,8 @@ h4.products {
 #checkBox 
 {
 	margin-bottom: 3%;
-	height: 30px;
-	width: 30px;
+	height: 40px;
+	width: 40px;
 	text-align: center;
     bottom: 0px;
     font-size: 2em;
@@ -288,13 +291,6 @@ body#wand-list
 
 /***************** Wand Builder *******************/
 
-/*.jumbotron {
-	border: 1px solid red;
-	margin: 5%;
-	max-width: 60%;
-	background-color: transparent;
-	padding-left: 100px;
-}*/
 .row {
 	max-width: 100%;
 }
@@ -310,7 +306,6 @@ body#wand-list
 
 	margin-top: 5%;
 	padding-right: 10%;
-
 }
 
 
