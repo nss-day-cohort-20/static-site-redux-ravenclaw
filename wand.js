@@ -13,7 +13,7 @@ geth1.appendChild(text);
 
 function randomImageGenerator()
 {
-	var randNum = Math.floor(Math.random()*6);
+	var randNum = Math.floor(Math.random()*6+1);
 	return randNum;
 }
 
