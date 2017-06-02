@@ -12,7 +12,7 @@ nav {
 	background-color: #01274E;
 	font-size:2em;
 }
- /* fixes bootstrap defaults for nav links */
+/* fixes bootstrap defaults for nav links */
 nav, .nav-tabs, .nav-justified a {
 	color: #FBFEFF;
 }
@@ -77,7 +77,7 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
 }
 
 .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
-    border-color: #01274E;
+	border-color: #01274E;
 }
 
 
@@ -101,17 +101,17 @@ h4.products {
 #onlyButtonOnProductsPage
 {
 	font-family: 'Pompiere', cursive;
- 	display: block;
- 	width:300px;
- 	height: 150px;
- 	margin: auto;
- 	margin-top: 50px;
- 	margin-bottom: 100px;
- 	border-radius: 20px;
- 	font-weight: 900;
- 	font-size: 3em;
- 	overflow: hidden;
- 	text-decoration: none;
+	display: block;
+	width:300px;
+	height: 150px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius: 20px;
+	font-weight: 900;
+	font-size: 3em;
+	overflow: hidden;
+	text-decoration: none;
 	color: black;
 	text-align: center;
 	padding-top: 20px;
@@ -129,8 +129,8 @@ h4.products {
 	max-height: 6500px;
 	background-image: url('./images/whimsy.png');
 
-          box-shadow: 15px 15px 20px -6px gray;
- 
+	box-shadow: 15px 15px 20px -6px gray;
+
 }
 
 .card-title {
@@ -172,8 +172,8 @@ h4.products {
 	height: 40px;
 	width: 40px;
 	text-align: center;
-    bottom: 0px;
-    font-size: 2em;
+	bottom: 0px;
+	font-size: 2em;
 }
 
 #clickSelectText {
@@ -201,36 +201,36 @@ HOME PAGE
 
 .one-edge-shadow 
 {
-  -webkit-box-shadow: 15px 15px 20px -6px gray;
-     -moz-box-shadow: 15px 15px 20px -6px gray;
-          box-shadow: 15px 15px 20px -6px gray;
- }
+	-webkit-box-shadow: 15px 15px 20px -6px gray;
+	-moz-box-shadow: 15px 15px 20px -6px gray;
+	box-shadow: 15px 15px 20px -6px gray;
+}
 
- #onlyButtonOnHomePage 
- {
- 	font-family: 'Pompiere', cursive;
- 	display: block;
- 	width:300px;
- 	height: 150px;
- 	margin: auto;
- 	margin-top: 50px;
- 	margin-bottom: 100px;
- 	border-radius: 20px;
- 	font-weight: 900;
- 	font-size: 3em;
- 	overflow: hidden;
- 	text-decoration: none;
+#onlyButtonOnHomePage 
+{
+	font-family: 'Pompiere', cursive;
+	display: block;
+	width:300px;
+	height: 150px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius: 20px;
+	font-weight: 900;
+	font-size: 3em;
+	overflow: hidden;
+	text-decoration: none;
 	color: black;
 	text-align: center;
 	padding-top: 20px;
- }
+}
 
 .buttonStyle
 {
-  -webkit-box-shadow: 15px 15px 20px -6px black;
-     -moz-box-shadow: 15px 15px 20px -6px black;
-          box-shadow: 15px 15px 20px -6px black;
-   background-color: lightgray;
+	-webkit-box-shadow: 15px 15px 20px -6px black;
+	-moz-box-shadow: 15px 15px 20px -6px black;
+	box-shadow: 15px 15px 20px -6px black;
+	background-color: lightgray;
 
 }
 
@@ -238,18 +238,38 @@ HOME PAGE
 	font-family: 'Pompiere', cursive;
 	font-size: 5rem;
 	display: block;
- 	width:300px;
- 	height: 150px;
- 	margin: auto;
- 	margin-top: 50px;
- 	margin-bottom: 100px;
- 	border-radius: 20px;
- 	font-weight: 900;
- 	overflow: hidden;
- 	text-decoration: none;
+	width:300px;
+	height: 150px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius: 20px;
+	font-weight: 900;
+	overflow: hidden;
+	text-decoration: none;
 	color: black;
 	text-align: center;
 	padding-top: 10px;
+	text-decoration: none;
+}
+
+.productButton:hover {
+	font-family: 'Pompiere', cursive;
+	font-size: 5rem;
+	display: block;
+	width:300px;
+	height: 150px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius: 20px;
+	font-weight: 900;
+	overflow: hidden;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
 }
 
 #homeTitle
@@ -330,9 +350,9 @@ body#wand-list
 	list-style-type: none;
 }
 .iconName {
- 	display: inline-block;
- 	padding-right: 1em;
- }
+	display: inline-block;
+	padding-right: 1em;
+}
 
 
 
@@ -359,42 +379,44 @@ body#wand-list
 	text-align: center;
 }
 #builderButton {
-background-repeat: no-repeat;
- 	/*color: white;*/
- 	font-family: 'Pompiere', cursive;
- 	display: block;
- 	width:200px;
- 	height: 50px;
- 	border-radius: 20px;
- 	font-weight: 900;
- 	font-size: 2em;
- 	overflow: hidden;
- 	position: absolute;
- 	bottom: 2;
- 	right: 0;
- 	margin-right: 160px;
- 	text-decoration: none;
+	background-repeat: no-repeat;
+	/*color: white;*/
+	font-family: 'Pompiere', cursive;
+	display: block;
+	width:200px;
+	height: 50px;
+	border-radius: 20px;
+	font-weight: 900;
+	font-size: 2em;
+	overflow: hidden;
+	position: absolute;
+	bottom: 2;
+	right: 0;
+	margin-right: 160px;
+	text-decoration: none;
 	color: black;
 	text-align: center;
 	padding-top: 5px;	
- }
- #builderButton2 {
-background-repeat: no-repeat;
- 	/*color: white;*/
- 	font-family: 'Pompiere', cursive;
- 	width:200px;
- 	height: 50px;
- 	border-radius: 20px;
- 	font-weight: 900;
- 	font-size: 2em;
- 	position: absolute;
- 	margin-left: 40px;	
- 	text-decoration: none;
+}
+
+
+#builderButton2 {
+	background-repeat: no-repeat;
+	/*color: white;*/
+	font-family: 'Pompiere', cursive;
+	width:200px;
+	height: 50px;
+	border-radius: 20px;
+	font-weight: 900;
+	font-size: 2em;
+	position: absolute;
+	margin-left: 40px;	
+	text-decoration: none;
 	color: black;
 	text-align: center;
 	padding-top: 5px;
- 	
- }
+
+}
 
 
 .builderBackground {
