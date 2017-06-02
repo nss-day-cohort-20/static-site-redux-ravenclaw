@@ -108,7 +108,10 @@ h4.products {
 	text-align: center;
 	min-height: 600px;
 	max-height: 6500px;
-	background-image: url('./images/whimsy.png')
+	background-image: url('./images/whimsy.png');
+
+          box-shadow: 15px 15px 20px -6px gray;
+ 
 }
 
 .card-title {
@@ -139,6 +142,7 @@ h4.products {
 	border-top: 1px solid grey;
 	font-size: 3em;
 	border-bottom: 1px solid grey;
+	color: #01274E;
 }
 
 #checkBox 
@@ -158,6 +162,10 @@ h4.products {
 	max-width: 100%;
 	bottom: 0px;	
 
+}
+
+input[type=checkbox]:after {
+	back
 }
 /***********************
 HOME PAGE
