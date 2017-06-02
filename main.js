@@ -33,16 +33,15 @@ for (var i=0; i<eachWand.length; i++)
     		<p class="card-text">${eachWand[i].description}</p>
     		<p class="card-text" id="productPrice">$${eachWand[i].price}</p>
   		</div>
-
-  		// <input class="checkBox1" type="checkbox" name="${eachWand[i].nameId}" value="${eachWand[i].name}" id="${eachWand[i].nameId}">
-  		// <h4 id="clickSelectText">Click to select</h4>
-
   		<h1 id="clickSelectText">Click to select</h1>
-  		<input id="checkBox" type="checkbox" name="${eachWand[i].nameId}" ID="${eachWand[i].nameId}">
+    		<input id="checkBox" type="checkbox" name="${eachWand[i].nameId}" ID="${eachWand[i].nameId}">
+
+  		
+  		
   		
 </div>`
 }
-
+// <input class="checkBox1" type="checkbox" name="${eachWand[i].nameId}" value="${eachWand[i].name}" id="${eachWand[i].nameId}">
 	// var toPrint = [];
 	// geth1 = document.getElementById("hereIsYourWand"); 
 	// function display() 
