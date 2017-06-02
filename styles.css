@@ -28,6 +28,7 @@ footer {
 	color: #8D6B2C;
 	width:100%;
 	height: 100%;
+	padding: 15px 0;
 }
 
 /**************** classes ****************/
@@ -303,10 +304,71 @@ HOME PAGE
 	max-height: 500px;
 }
 /***************** wand list page styles *******************/
-body#wand-list 
-{
-	
+div#wand-list h2 {
+	text-align: center;
+	margin: 2em 0;
 }
+div.wand-item h4 {
+	color: #F92886;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 900;
+	margin-bottom: .5em;
+}
+div.wand-item p {
+	color: #fff;
+}
+div#wand-list {
+	width: 80%;
+	margin: 0 auto;
+}
+div#wands-left {
+	width: 45%;
+	margin-left: 1em;
+	float: left;
+}
+div#wands-right {
+	width: 45%;
+	float: right;
+}
+div.wand-item {
+	background-image: url("images/card-background.jpg");
+	width: 100%;
+	height: 275px;
+	border-radius: 10px;
+	margin-bottom: 7em;
+	padding: 1em 1.5em;
+}
+div.wand-img img {
+	display: inline;
+	border: 4px solid #8D6B2C;
+	float: left;
+}
+div.wand-text {
+	display: inline;
+	width: 50%;
+	float: right;
+}
+#buttonWandPage
+{
+	font-family: 'Pompiere', cursive;
+ 	display: block;
+ 	width:300px;
+ 	height: 150px;
+ 	margin: auto;
+ 	margin-top: 50px;
+ 	margin-bottom: 100px;
+ 	border-radius: 20px;
+ 	font-weight: 900;
+ 	font-size: 3em;
+ 	overflow: hidden;
+ 	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding-top: 40px;
+}
+
+
 
 /***************** Wand Builder *******************/
 
