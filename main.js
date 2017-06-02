@@ -23,17 +23,58 @@ var wandGuts8 = makeWand("Digested Dog Toy", "Makes spell fail without work.", 1
 
 var eachWand = [wandGuts1, wandGuts2, wandGuts3, wandGuts4, wandGuts5, wandGuts6, wandGuts7, wandGuts8];
 
-for (var i=0; i<=eachWand.length; i++) {
+for (var i=0; i<eachWand.length; i++) 
+{
 	document.getElementById("card").innerHTML +=
 		` <div class="card">
-		<img class="card-img-top" src="${eachWand[i].image}" alt="Card image cap">
+		<img src="${eachWand[i].image}" class="card-img-top" alt="Card image cap">
   		<div class="card-block">
    			<h4 class="card-title">${eachWand[i].name}</h4>
     		<p class="card-text">${eachWand[i].description}</p>
     		<p class="card-text" id="productPrice">$${eachWand[i].price}</p>
   		</div>
-  		<input id="checkBox" type="checkbox" name="${eachWand[i].nameId}" ID="${eachWand[i].nameId}">
+  		<input class="checkBox1" type="checkbox" name="${eachWand[i].nameId}" value="${eachWand[i].name}" id="${eachWand[i].nameId}">
   		<h4 id="clickSelectText">Click to select</h4>
 </div>`
 }
+
+	// var toPrint = [];
+	// geth1 = document.getElementById("hereIsYourWand"); 
+	// function display() 
+	// {	
+	// 	if(document.getElementById("Phoenix").checked === true)
+	// 	{ 
+	// 		toPrint.push(document.getElementById("Phoenix").value);
+	// 	}
+	// 	if(document.getElementById("Dragonheart").checked === true)
+	// 	{ 
+	// 		toPrint.push(document.getElementById("Dragonheart").value);
+	// 	}
+	// 	if(document.getElementById("Unicornhorn").checked === true)
+	// 	{ 
+	// 		toPrint.push(document.getElementById("Unicornhorn").value);
+	// 	}
+	// 	if(document.getElementById("Thunder").checked === true)
+	// 	{ 
+	// 		toPrint.push(document.getElementById("Thunder").value);
+	// 	}
+	// 	if(document.getElementById("Unicornblood").checked === true)
+	// 	{ 
+	// 		toPrint.push(document.getElementById("Unicornblood").value);
+	// 	}
+	// 	if(document.getElementById("Dragonscales").checked === true)
+	// 	{ 
+	// 		toPrint.push(document.getElementById("Dragonscales").value);
+	// 	}
+	// 	if(document.getElementById("Cat").checked === true)
+	// 	{ 
+	// 		toPrint.push(document.getElementById("Cat").value);
+	// 	}
+	// 	if(document.getElementById("Dogtoy").checked === true)
+	// 	{ 
+	// 		toPrint.push(document.getElementById("Dogtoy").value);
+	// 	}
+	
+	// geth1.innerHTML += toPrint;
+	// }
 
