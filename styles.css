@@ -1,7 +1,7 @@
 /**************** element tags ****************/
 
 body {
-	background-color: #fff;
+	background-color: #E2E8F5;
 	font-family: 'Pompiere', cursive;
 }
 
@@ -12,7 +12,7 @@ nav {
 	background-color: #01274E;
 	font-size:2em;
 }
- /* fixes bootstrap defaults for nav links */
+/* fixes bootstrap defaults for nav links */
 nav, .nav-tabs, .nav-justified a {
 	color: #FBFEFF;
 }
@@ -28,6 +28,7 @@ footer {
 	color: #8D6B2C;
 	width:100%;
 	height: 100%;
+	padding: 15px 0;
 }
 
 /**************** classes ****************/
@@ -77,32 +78,9 @@ active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified
 }
 
 .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
-    border-color: #01274E;
-}
-/*************************** CONTACT ***************************/
-
-.contactGuide, .contactList {
-	width: 80%;
-	margin: 2em auto;
+	border-color: #01274E;
 }
 
-.icon {
-	width: 100px;
-	min-height: 40px;
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-
-}
-
-.iconName {
-	font-size: 2.5em;
-	list-style-type: none;
-}
-.iconName {
- 	display: inline-block;
- 	padding-right: 1em;
- }
 
 /**************** Products **************/
 h2.products {
@@ -115,7 +93,6 @@ h2.products {
 h4.products {
 	text-align: center;
 }
-
 .navbar {
 	height: auto;
 	margin: 0 auto -155px;
@@ -125,17 +102,17 @@ h4.products {
 #onlyButtonOnProductsPage
 {
 	font-family: 'Pompiere', cursive;
- 	display: block;
- 	width:300px;
- 	height: 150px;
- 	margin: auto;
- 	margin-top: 50px;
- 	margin-bottom: 100px;
- 	border-radius: 20px;
- 	font-weight: 900;
- 	font-size: 3em;
- 	overflow: hidden;
- 	text-decoration: none;
+	display: block;
+	width:300px;
+	height: 150px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius: 20px;
+	font-weight: 900;
+	font-size: 3em;
+	overflow: hidden;
+	text-decoration: none;
 	color: black;
 	text-align: center;
 	padding-top: 20px;
@@ -145,20 +122,25 @@ h4.products {
 .card {
 	margin: 3%;
 	width: 27%;
-	border: 3px solid grey;
+	border: 3px solid #01274E;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
 	min-height: 600px;
 	max-height: 6500px;
+	background-image: url('./images/whimsy.png');
+
+	box-shadow: 15px 15px 20px -6px gray;
+
 }
 
 .card-title {
-	border-bottom: 1px solid grey;
-	padding-bottom: 8px;
+	padding-bottom: 30px;
 	font-size: 3rem;
 	color: #01274E;
 	font-weight: bold;
+	font-stretch: all;
+	font-size: 5rem;
 }
 
 .card-text {
@@ -171,34 +153,43 @@ h4.products {
 .card-img-top {
 	max-width: 90%;
 	max-height: 250px;
-	min-height: 246px;
-	margin: 2%;
+	min-height: 250px;
+	min-width: 344px;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	border-radius: 2%;
 }
 
 #productPrice {
-	border-top: 1px solid grey;
+	font-family: 'Henny Penny', cursive;
+
 	font-size: 3em;
-	border-bottom: 1px solid grey;
+	color: #01274E;
 }
 
 .checkBox1 
 {
 	margin-bottom: 3%;
-	height: 30px;
-	width: 30px;
+	height: 40px;
+	width: 40px;
 	text-align: center;
-    bottom: 0px;
-    font-size: 2em;
+	bottom: 0px;
+	font-size: 2em;
 }
 
 #clickSelectText {
-
+	font-family: 'Henny Penny', cursive;
 	color: #F92886;
 	font-weight: Bold;
 	max-width: 100%;
 	bottom: 0px;	
 
 }
+
+input[type=checkbox]:after {
+	back
+}
+
 /***********************
 HOME PAGE
 ***********************/
@@ -211,44 +202,82 @@ HOME PAGE
 
 .one-edge-shadow 
 {
-  -webkit-box-shadow: 15px 15px 20px -6px gray;
-     -moz-box-shadow: 15px 15px 20px -6px gray;
-          box-shadow: 15px 15px 20px -6px gray;
- }
+	-webkit-box-shadow: 15px 15px 20px -6px gray;
+	-moz-box-shadow: 15px 15px 20px -6px gray;
+	box-shadow: 15px 15px 20px -6px gray;
+}
 
- #onlyButtonOnHomePage 
- {
- 	font-family: 'Pompiere', cursive;
- 	display: block;
- 	width:300px;
- 	height: 200px;
- 	margin: auto;
- 	margin-top: 50px;
- 	margin-bottom: 100px;
- 	border-radius: 20px;
- 	font-weight: 900;
- 	font-size: 3em;
- 	overflow: hidden;
- 	text-decoration: none;
+#onlyButtonOnHomePage 
+{
+	font-family: 'Pompiere', cursive;
+	display: block;
+	width:300px;
+	height: 150px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius: 20px;
+	font-weight: 900;
+	font-size: 3em;
+	overflow: hidden;
+	text-decoration: none;
 	color: black;
 	text-align: center;
-	padding-top: 40px;
- }
+	padding-top: 20px;
+}
 
 .buttonStyle
 {
-  -webkit-box-shadow: 15px 15px 20px -6px black;
-     -moz-box-shadow: 15px 15px 20px -6px black;
-          box-shadow: 15px 15px 20px -6px black;
-   background-color: lightgray;
-
+	-webkit-box-shadow: 15px 15px 20px -6px black;
+	-moz-box-shadow: 15px 15px 20px -6px black;
+	box-shadow: 15px 15px 20px -6px black;
+	background-color: lightgray;
 
 }
+
+.productButton {
+	font-family: 'Pompiere', cursive;
+	font-size: 5rem;
+	display: block;
+	width:300px;
+	height: 150px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius: 20px;
+	font-weight: 900;
+	overflow: hidden;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+}
+
+.productButton:hover {
+	font-family: 'Pompiere', cursive;
+	font-size: 5rem;
+	display: block;
+	width:300px;
+	height: 150px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius: 20px;
+	font-weight: 900;
+	overflow: hidden;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+}
+
 #homeTitle
 {
 	text-align: center;
 	font-weight: 900;
-	font-size: 5em;
+	font-size: 4em;
 	color: white;
 }
 
@@ -269,21 +298,81 @@ HOME PAGE
 	width:10%;
 	margin: auto;
 }
-/***************** wand list page styles *******************/
-body#wand-list 
-{
-	
+
+.homeContainer {
+	min-height: 500px;
+	max-height: 500px;
 }
+/***************** wand list page styles *******************/
+div#wand-list h2 {
+	text-align: center;
+	margin: 2em 0;
+}
+div.wand-item h4 {
+	color: #F92886;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 900;
+	margin-bottom: .5em;
+}
+div.wand-item p {
+	color: #fff;
+}
+div#wand-list {
+	width: 80%;
+	margin: 0 auto;
+}
+div#wands-left {
+	width: 45%;
+	margin-left: 1em;
+	float: left;
+}
+div#wands-right {
+	width: 45%;
+	float: right;
+}
+div.wand-item {
+	background-image: url("images/card-background.jpg");
+	width: 100%;
+	height: 275px;
+	border-radius: 10px;
+	margin-bottom: 7em;
+	padding: 1em 1.5em;
+	background-size: cover;
+}
+div.wand-img img {
+	display: inline;
+	border: 4px solid #8D6B2C;
+	float: left;
+}
+div.wand-text {
+	display: inline;
+	width: 50%;
+	float: right;
+}
+#buttonWandPage
+{
+	font-family: 'Pompiere', cursive;
+ 	display: block;
+ 	width:300px;
+ 	height: 150px;
+ 	margin: auto;
+ 	margin-top: 50px;
+ 	margin-bottom: 100px;
+ 	border-radius: 20px;
+ 	font-weight: 900;
+ 	font-size: 3em;
+ 	overflow: hidden;
+ 	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding-top: 40px;
+}
+
+
 
 /***************** Wand Builder *******************/
 
-/*.jumbotron {
-	border: 1px solid red;
-	margin: 5%;
-	max-width: 60%;
-	background-color: transparent;
-	padding-left: 100px;
-}*/
 .row {
 	max-width: 100%;
 }
@@ -299,9 +388,7 @@ body#wand-list
 
 	margin-top: 5%;
 	padding-right: 10%;
-
 }
-
 
 
 /*************************** CONTACT ***************************/
@@ -311,12 +398,15 @@ body#wand-list
 	margin: 2em auto;
 	text-align: center;
 }
-
+.contactList
+{
+	margin-top: 0;
+}
 .icon {
 	width: 100px;
 	min-height: 40px;
-	padding: 0;
-	margin: 0;
+	padding: 10px;
+	margin-right: 10px;
 	list-style-type: none;
 	border-radius: 100%;
 }
@@ -326,9 +416,11 @@ body#wand-list
 	list-style-type: none;
 }
 .iconName {
- 	display: inline-block;
- 	padding-right: 1em;
- }
+	display: inline-block;
+	padding-right: 1em;
+}
+
+
 
 .wandContainer {
 
@@ -353,45 +445,49 @@ body#wand-list
 	text-align: center;
 }
 #builderButton {
-background-repeat: no-repeat;
- 	/*color: white;*/
- 	font-family: 'Pompiere', cursive;
- 	display: block;
- 	width:200px;
- 	height: 50px;
- 	border-radius: 20px;
- 	font-weight: 900;
- 	font-size: 2em;
- 	overflow: hidden;
- 	position: absolute;
- 	bottom: 2;
- 	right: 0;
- 	margin-right: 160px;
- 	text-decoration: none;
+	background-repeat: no-repeat;
+	/*color: white;*/
+	font-family: 'Pompiere', cursive;
+	display: block;
+	width:200px;
+	height: 50px;
+	border-radius: 20px;
+	font-weight: 900;
+	font-size: 2em;
+	overflow: hidden;
+	position: absolute;
+	bottom: 2;
+	right: 0;
+	margin-right: 160px;
+	text-decoration: none;
 	color: black;
 	text-align: center;
 	padding-top: 5px;	
- }
- #builderButton2 {
-background-repeat: no-repeat;
- 	/*color: white;*/
- 	font-family: 'Pompiere', cursive;
- 	width:200px;
- 	height: 50px;
- 	border-radius: 20px;
- 	font-weight: 900;
- 	font-size: 2em;
- 	position: absolute;
- 	margin-left: 40px;	
- 	text-decoration: none;
+}
+
+
+#builderButton2 {
+	background-repeat: no-repeat;
+	/*color: white;*/
+	font-family: 'Pompiere', cursive;
+	width:200px;
+	height: 50px;
+	border-radius: 20px;
+	font-weight: 900;
+	font-size: 2em;
+	position: absolute;
+	margin-left: 40px;	
+	text-decoration: none;
 	color: black;
 	text-align: center;
 	padding-top: 5px;
- 	
- }
+
+}
 
 
-
+.builderBackground {
+	background-color: #fff;
+}
 
 
 
